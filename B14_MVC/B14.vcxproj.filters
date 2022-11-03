@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Check">
+      <UniqueIdentifier>{85d04633-2bc5-4ec3-8f31-f0f225067657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{f0761ac3-4330-42af-bf26-1e0155b17b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{bbb0bacf-137a-4e8b-bd14-9bf22e04dea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{b8d03eec-353e-4169-aaf2-75370223a716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manger">
+      <UniqueIdentifier>{f029508f-39a8-4bd8-8438-9a548a638eee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Check\InvalidFullNameException.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\InvalidDOBException.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\UserInput.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\Validator.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\InvalidPhoneNumberException.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\GoodStudent.h" />
+    <ClInclude Include="src\Model\NormalStudent.h" />
+    <ClInclude Include="src\Model\Student.h" />
+    <ClInclude Include="src\View\View.h" />
+    <ClInclude Include="src\Menu\Menu.h" />
+    <ClInclude Include="src\Manager\StudentManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Check\UserInput.cpp">
+      <Filter>Check</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Check\Validator.cpp">
+      <Filter>Check</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\GoodStudent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\NormalStudent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Student.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\View\View.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\Menu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\StudentManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

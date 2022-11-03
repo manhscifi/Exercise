@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\HouseHold">
+      <UniqueIdentifier>{1fce4341-bda0-43aa-a015-516dd80f37dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Receipt">
+      <UniqueIdentifier>{c3d477e4-ff56-4033-88e3-874c4eef8c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\HouseHold">
+      <UniqueIdentifier>{14d66a4d-84cb-4793-a8cf-60682b80263a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Receipt">
+      <UniqueIdentifier>{cb5f563a-d000-46e2-b574-848f639b2822}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReceiptManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Validation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseHold_Control.h">
+      <Filter>Header Files\HouseHold</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseHold_Model.h">
+      <Filter>Header Files\HouseHold</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseHold_View.h">
+      <Filter>Header Files\HouseHold</Filter>
+    </ClInclude>
+    <ClInclude Include="Receipt_Control.h">
+      <Filter>Header Files\Receipt</Filter>
+    </ClInclude>
+    <ClInclude Include="Receipt_Model.h">
+      <Filter>Header Files\Receipt</Filter>
+    </ClInclude>
+    <ClInclude Include="Receipt_View.h">
+      <Filter>Header Files\Receipt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReceiptManager.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Validation.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseHold_Control.cpp">
+      <Filter>Resource Files\HouseHold</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseHold_Model.cpp">
+      <Filter>Resource Files\HouseHold</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseHold_View.cpp">
+      <Filter>Resource Files\HouseHold</Filter>
+    </ClCompile>
+    <ClCompile Include="Receipt_Control.cpp">
+      <Filter>Resource Files\Receipt</Filter>
+    </ClCompile>
+    <ClCompile Include="Receipt_Model.cpp">
+      <Filter>Resource Files\Receipt</Filter>
+    </ClCompile>
+    <ClCompile Include="Receipt_View.cpp">
+      <Filter>Resource Files\Receipt</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

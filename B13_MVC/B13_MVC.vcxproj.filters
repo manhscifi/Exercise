@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Check">
+      <UniqueIdentifier>{55e97635-211f-4623-a95f-d8ec151d33d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Date">
+      <UniqueIdentifier>{33ef53a3-739d-4057-ba99-aee59d6e047c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{51967d92-f8d4-4da3-ae90-4edc4bd49ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{1201004b-b788-4e37-b0de-5245bd9b09dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MVC">
+      <UniqueIdentifier>{f36e6ef1-9de4-4e13-a00b-ef70e50fdadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MVC\Model">
+      <UniqueIdentifier>{b597f98d-aa14-4c56-a9d8-550c98ff5d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MVC\Control">
+      <UniqueIdentifier>{845e1e0e-5576-4485-9313-ad43dc4ea80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MVC\View">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\View\View.cpp">
+      <Filter>MVC\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Check\Validator.cpp">
+      <Filter>Check</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Check\UserInput.cpp">
+      <Filter>Check</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menu\Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Certificatel.cpp">
+      <Filter>MVC\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Employee.cpp">
+      <Filter>MVC\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Experience.cpp">
+      <Filter>MVC\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Fresher.cpp">
+      <Filter>MVC\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Intern.cpp">
+      <Filter>MVC\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Control\EmployeeControl.cpp">
+      <Filter>MVC\View</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\Manager.cpp">
+      <Filter>MVC\View</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>MVC\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Model\Certificate.h">
+      <Filter>MVC\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Employee.h">
+      <Filter>MVC\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Experience.h">
+      <Filter>MVC\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Fresher.h">
+      <Filter>MVC\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Intern.h">
+      <Filter>MVC\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\Validator.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\UserInput.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menu\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\View\View.h">
+      <Filter>MVC\View</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\BirthDayException.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\EmailException.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\FullNameException.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Check\PhoneException.h">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Control\EmployeeControl.h" />
+    <ClInclude Include="src\Manager\Manager.h" />
+  </ItemGroup>
+</Project>
